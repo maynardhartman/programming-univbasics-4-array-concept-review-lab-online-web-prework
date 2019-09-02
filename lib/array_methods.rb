@@ -28,8 +28,11 @@ def find_max_value(array)
   for (count = 0; count < array.length; count++)
   {
     if (array[count] > array[count+1])
-      
+      element = array[count+1]
+    else
+      element = array[count]
   }
+  return (array[count)])
   for (count = 0; count < array.length; count++)
   {
     if(array[count] > acount[count+1])
@@ -42,4 +45,8 @@ end
 
 def find_min_value(array)
   # Add your solution here
+  for(count = 0; count < array.length; count++)
+  {
+    if (array[count])
+  }
 end
