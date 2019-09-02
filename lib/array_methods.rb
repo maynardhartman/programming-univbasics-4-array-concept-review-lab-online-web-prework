@@ -14,6 +14,7 @@ end
 def find_max_value(array)
   # Add your solution here
   element = 0
+  
   for (count = 0; count < array.length; count++)
   {
     if(array[count] > acount[count+1])
