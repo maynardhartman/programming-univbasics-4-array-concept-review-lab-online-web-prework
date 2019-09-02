@@ -2,8 +2,17 @@ def find_element_index(array, value_to_find)
   # Add your solutio
   for (element = 0; elment < array.lenght; count++)
   {
-    if (srray[element])
+    if (array[element] == value_to_find)
+      {
+        return (index)
+      }
+    else
+      {
+        return (nil)
+      }
   }
+end 
+
   for (count = 0; count < array.lenght; count++)
   {
     if array[count] == value_to_find
