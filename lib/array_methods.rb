@@ -1,6 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solutio
-  
+  if (array[count] == value_to_find)
+    return (array[count])
   for (count = 0; count < array.lenght; count++)
   {
     if array[count] == value_to_find
